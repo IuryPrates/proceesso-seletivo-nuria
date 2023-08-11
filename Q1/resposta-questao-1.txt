@@ -1,1 +1,3 @@
-blablabla
+SELECT A.*
+FROM Atendimento A
+JOIN Pacientes P ON A.id_paciente = P.id_paciente
