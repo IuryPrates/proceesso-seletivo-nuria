@@ -1,2 +1,2 @@
 # processo-seletivo-nuria
-## Resolução de questões 
+## Resolução de questões.
