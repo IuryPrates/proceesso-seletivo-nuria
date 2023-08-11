@@ -1,3 +1,5 @@
 SELECT A.*
 FROM Atendimento A
 JOIN Pacientes P ON A.id_paciente = P.id_paciente
+WHERE P.cd_especialidade = 'Neurologia'
+ AND A.data_atendimento >= DATE_SUB(NOW(), INTERVAL 6 MONTH);
