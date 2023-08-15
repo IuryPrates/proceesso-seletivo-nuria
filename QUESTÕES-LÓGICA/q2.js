@@ -1,3 +1,7 @@
+/*
+Faça um programa que solicite ao usuário o ano em que ele nasceu e verifique 
+se o ano é Bissexto ou não e imprima uma mensagem na tela.
+*/
 //pega ano de nascimento
 const ano_de_nascimento = parseInt(prompt("Digite o ano de nascimento:"));
 
